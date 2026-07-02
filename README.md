@@ -1,4 +1,4 @@
-# 🚂 Railway Revenue Analytics & User Management System
+<!--# 🚂 Railway Revenue Analytics & User Management System
 
 A full-stack Streamlit-based web application developed during my internship at **Western Railway – Zonal IT Centre, Churchgate, Mumbai**. This system is designed to assist with **revenue analytics**, **document management**, and **role-based user control** over freight data dashboards.
 
@@ -116,7 +116,340 @@ Progressive Web App
 
 Deployment
 
-Build Fails to Minify
+Build Fails to Minify-->
+
+# 🚂 Railway Revenue Analytics Platform
+
+### Enterprise Freight Revenue Analytics, ETL Automation & User Management System
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Oracle](https://img.shields.io/badge/Oracle-Database-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-orange)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-blueviolet)
+![Status](https://img.shields.io/badge/Status-Internship_Project-success)
+
+---
+
+## 📌 Overview
+
+The **Railway Revenue Analytics Platform** is an enterprise-grade analytics application developed during my internship at **Western Railway – Zonal IT Centre, Churchgate, Mumbai**.
+
+The platform was designed to automate freight revenue reporting, streamline Excel-to-Oracle ETL workflows, provide secure role-based access, and enable operational teams to analyze multi-year freight revenue through interactive dashboards.
+
+Developed using **Python, Oracle SQL, Streamlit, Plotly, and Oracle Database**, the application combines data engineering, business intelligence, automation, and user management into a unified platform for operational reporting.
+
+---
+
+# 🎯 Business Problem
+
+Western Railway generates large volumes of freight revenue data across multiple commodities and reporting periods.
+
+Traditional reporting involved manual Excel processing, repetitive Oracle SQL execution, and fragmented workflows, resulting in:
+
+- Time-consuming report preparation
+- Manual data entry
+- Repetitive SQL execution
+- Limited access control
+- Difficulty analyzing historical freight revenue
+- Inefficient operational reporting
+
+The objective of this project was to automate these workflows while providing secure, interactive, and data-driven reporting capabilities.
+
+---
+
+# 💡 Solution
+
+The Railway Revenue Analytics Platform provides a centralized solution that enables authorized users to:
+
+- Analyze multi-year freight revenue
+- Compare commodity-wise revenue trends
+- Automate Excel-to-Oracle data ingestion
+- Manage uploaded documents
+- Generate interactive dashboards
+- Secure access using role-based authentication
+- Reduce manual reporting effort through automation
+
+---
+
+# ✨ Key Features
+
+## 📊 Freight Revenue Analytics
+
+- Multi-year freight revenue analysis
+- Commodity-wise revenue comparison
+- Interactive Plotly dashboards
+- Dynamic year and month filtering
+- Trend visualization
+- Revenue insights using Oracle SQL queries
+
+---
+
+## ⚙️ Automated ETL Pipeline
+
+- Upload Excel datasets
+- Automatic schema detection
+- Dynamic Oracle table creation
+- Bulk data insertion
+- Data type inference
+- Automated ETL workflow
+
+Supported Data Types
+
+- VARCHAR
+- NUMBER
+- DATE
+
+---
+
+## 🔒 User Authentication & Security
+
+- Secure Login
+- SHA-256 Password Hashing
+- OTP Password Reset
+- Email Verification
+- Session Management
+- Role-Based Access Control
+
+User Roles
+
+- Administrator
+- Employee
+
+---
+
+## 📁 Document Management
+
+Users can
+
+- Upload documents
+- Search files
+- Download files
+- Delete files
+- Manage project documents
+
+---
+
+## 📈 Interactive Dashboards
+
+The platform provides visual dashboards for
+
+- Freight Revenue
+- Commodity Performance
+- Revenue Trends
+- Historical Analysis
+- Comparative Reporting
+
+---
+
+# 🏗 System Modules
+
+```
+Authentication
+│
+├── Login
+├── Signup
+├── OTP Verification
+└── Password Reset
+
+Analytics
+│
+├── Dashboard
+├── Revenue Analytics
+├── Commodity Analysis
+└── Trend Analysis
+
+ETL
+│
+├── Upload Excel
+├── Parse Dataset
+├── Create Oracle Tables
+└── Insert Records
+
+Document Management
+│
+├── Upload
+├── Download
+├── Search
+└── Delete
+
+Administration
+│
+├── User Management
+├── Role Management
+└── Access Control
+```
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technologies |
+|------------|------------------------------|
+| Frontend | Streamlit, HTML, CSS |
+| Backend | Python |
+| Database | Oracle Database |
+| Query Language | Oracle SQL |
+| Visualization | Plotly, Matplotlib |
+| Data Processing | Pandas |
+| Authentication | Hashlib, SMTP, Session State |
+| Automation | ETL Pipeline |
+| Version Control | Git, GitHub |
+
+---
+
+# 🔄 System Workflow
+
+```
+Excel Files
+        │
+        ▼
+Data Validation
+        │
+        ▼
+Schema Detection
+        │
+        ▼
+Oracle Database
+        │
+        ▼
+Oracle SQL Queries
+        │
+        ▼
+Python Backend
+        │
+        ▼
+Streamlit Dashboard
+        │
+        ▼
+Interactive Analytics
+```
+
+---
+
+# 📊 Business Impact
+
+This solution was developed to improve operational reporting by
+
+- Automating Excel-to-Oracle data ingestion
+- Reducing repetitive manual reporting
+- Centralizing freight revenue analytics
+- Strengthening access control
+- Improving reporting accuracy
+- Supporting faster operational decision-making
+
+---
+
+# 📂 Repository Structure
+
+```
+Railway-Revenue-Analytics-Platform/
+
+│
+├── Document.py
+├── Login_user_management.py
+├── data_entry.py
+├── db_utils.py
+├── download_data.py
+├── fetch_db.py
+├── list_db.py
+├── pull_db.py
+├── table_creation.py
+├── page1.py
+├── page2.py
+├── pages3.py
+├── pages4.py
+├── queries.txt
+├── run_streamlit.bat
+├── package.json
+├── server.js
+├── src/
+├── public/
+└── README.md
+```
+
+---
+
+# 🚀 Installation
+
+## Prerequisites
+
+- Python 3.10+
+- Oracle Instant Client
+- Oracle Database
+- Node.js (for frontend components)
+
+Install dependencies
+
+```bash
+pip install streamlit pandas plotly openpyxl oracledb
+```
+
+Run
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🔐 Security & Confidentiality
+
+This repository is a portfolio representation of the project developed during my internship at **Western Railway – Zonal IT Centre**.
+
+To protect organizational confidentiality:
+
+- Internal datasets have been removed.
+- Database credentials have been excluded.
+- Sensitive business information has not been published.
+- The repository focuses solely on the technical implementation and architecture.
+
+---
+
+# 📚 Internship Information
+
+**Organization**
+
+Western Railway – Zonal IT Centre
+
+**Role**
+
+Software Developer & Data Analyst Intern
+
+**Duration**
+
+30 June 2025 – 25 July 2025
+
+---
+
+# 🔮 Future Enhancements
+
+- Power BI Integration
+- Predictive Revenue Forecasting
+- REST API Development
+- Docker Deployment
+- Cloud Hosting
+- CI/CD Pipeline
+- Advanced KPI Dashboards
+- Mobile Responsive UI
+- AI-Based Revenue Forecasting
+
+---
+
+# 👨‍💻 Author
+
+**Rudra Save**
+
+Electronics & Telecommunication Engineering Student
+
+Aspiring Data Analyst | Business Analyst | Power BI Developer
+
+GitHub: https://github.com/rudrasave
+
+LinkedIn: *(Add your LinkedIn URL here)*
+
+---
+
+## ⭐ If you found this project interesting, consider giving it a Star!
 
 📬 Connect With Me
 LinkedIn: Your LinkedIn Profile
