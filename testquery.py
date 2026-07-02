@@ -5,11 +5,11 @@ import sys
 INSTANT_CLIENT_PATH = r"C:\Users\DELL\Desktop\Intership\instantclient-basic-windows.x64-23.8.0.25.04\instantclient_23_8"
 
 # --- Database Connection Parameters ---
-DB_USER = "intern"
-DB_PASSWORD = "inT##2025"
-DB_HOST = "10.3.19.4"
-DB_PORT = 1523
-DB_SID = "traffic"
+DB_HOST = "YOUR_HOST"
+DB_PORT = "1521"
+DB_USER = "YOUR_USERNAME"
+DB_PASSWORD = "YOUR_PASSWORD"
+DB_SERVICE = "YOUR_SERVICE_NAME"
 
 # --- Table Details ---
 TARGET_SCHEMA = "FOISGOODS"
