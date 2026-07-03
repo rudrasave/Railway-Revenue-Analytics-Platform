@@ -171,6 +171,36 @@ The Railway Revenue Analytics Platform provides a centralized solution that enab
 
 ---
 
+# 🏗️ System Architecture
+
+![Architecture](docs/architecture.png)
+
+---
+
+# 🔄 ETL Workflow
+
+![ETL Workflow](docs/etl-workflow.png)
+
+---
+
+# 🔐 Authentication Flow
+
+![Authentication](docs/authentication-flow.png)
+
+---
+
+# 📊 Analytics Workflow
+
+![Analytics](docs/analytics-workflow.png)
+
+---
+
+# 📁 Module Overview
+
+![Modules](docs/module-overview.png)
+
+---
+
 # ✨ Key Features
 
 ## 📊 Freight Revenue Analytics
