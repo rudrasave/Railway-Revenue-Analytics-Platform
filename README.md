@@ -173,7 +173,7 @@ The Railway Revenue Analytics Platform provides a centralized solution that enab
 
 # 🏗️ System Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](docs/systemarchitecture.png)
 
 ---
 
